@@ -11,9 +11,9 @@
 <?php if($this->request->action == 'admin_index'): ?>
 <p>バナーエリアの管理が行えます。</p>
 <ul>
-	<li>新しいバナーエリアを登録するには、画面下の「新規追加」ボタンをクリックします。</li>
-	<li>操作欄の <?php $this->BcBaser->img('admin/icn_tool_manage.png') ?> ボタンからは、指定エリアのバナーファイル管理画面へ移動できます。</li>
-	<li>操作欄の <?php $this->BcBaser->img('admin/icn_tool_edit.png') ?> ボタンからは、バナーエリア設定の編集画面へ移動できます。</li>
+    <li>新しいバナーエリアを登録するには、画面上の「バナーエリア新規追加」ボタンをクリックします。</li>
+    <li>操作欄の <i class="bca-icon--th-list" data-bca-btn-size="md"></i> ボタンからは、指定エリアのバナーファイル管理画面へ移動できます。</li>
+    <li>操作欄の <i class="bca-icon--edit" data-bca-btn-size="md"></i> ボタンからは、バナーエリア設定の編集画面へ移動できます。</li>
 </ul>
 <?php else: ?>
 <p>サイズチェック設定について</p>
