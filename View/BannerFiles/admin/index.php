@@ -12,6 +12,10 @@ $this->BcBaser->js(array(
 	'admin/libs/jquery.baser_ajax_sort_table',
 	'admin/libs/baser_ajax_data_list_config'
 ));
+$this->BcAdmin->addAdminMainBodyHeaderLinks([
+    'url' => ['action' => 'add', $bannerArea['BannerArea']['id']],
+    'title' => __d('baser', '新規バナー追加'),
+]);
 ?>
 
 <script type="text/javascript">
