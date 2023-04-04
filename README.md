@@ -44,3 +44,26 @@ Banner プラグインは、バナーエリア別にバナーを管理できるb
 - [http://doc.basercms.net/](http://doc.basercms.net/)
 - [http://cakephp.jp](http://cakephp.jp)
 - [Semantic Versioning 2.0.0](http://semver.org/lang/ja/)
+
+___
+以下、3.0.4.1について特記。
+
+admin-third対応化に伴い、バージョン表記を仮に3.0.4.1としました。（本来のプロダクトのリビジョンに混乱をきたさないようにするため）
+
+3.0.4.1に関する改修は、[GUSSAN-BEEDAN](https://github.com/GUSSAN-BEEDAN) によるものです。
+
+## 「admin-third対応化」の内容
+詳細は、[baserCMSの「Banner（バナー管理）」プラグインのUIをadmin-third に対応化する](https://gussan-beedan.work/basercms-banner-plugin)を参照してください。
+
+主な要点:
+- admin-third対応化に伴い、admin-secondでは、利用できません。
+- よって、admin-third管理テーマがリリースされたbaserCMS 4.2.0バージョン以降での使用に限定されます。
+
+## インストール
+1. CodeボタンあるいはReleasesからダウンロードした圧縮ファイルを解凍後、生成されたフォルダ名 Banner［-for-admin-third-*やバージョン名］を Banner にリネームし、/app/Plugin/Banner として配置します。
+2. 管理画面のプラグイン管理に入り、表示されている Banner プラグイン をインストールして下さい。
+3. プラグインのインストール後、Banner 管理ページにアクセスして設定を行なってください。
+
+## アップデート
+1. CodeボタンあるいはReleasesからダウンロードした圧縮ファイルを解凍後、生成されたフォルダ名 Banner［-for-admin-third-*やバージョン名］を Banner にリネームし、既存の/app/Plugin/Banner を上書きします。
+2. 管理画面のプラグイン管理に入り、表示されている Banner プラグイン をアップデートして下さい。
