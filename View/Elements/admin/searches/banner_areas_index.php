@@ -8,6 +8,8 @@
  * @license         MIT
  */
 ?>
+
+<?php if($this->BcBaser->siteConfig['admin_theme'] == 'admin-third'): ?>
 <?php echo $this->BcForm->create('BannerArea', array('url' => array('action' => 'index'))) ?>
 <p class="bca-search__input-list">
     <span class="bca-search__input-item">
@@ -35,4 +37,16 @@
         ]) ?>
     </div>
 </div>
+<?php else: ?>
+<?php echo $this->BcForm->create('BannerArea', array('url' => array('action' => 'index'))) ?>
+<p>
+    <span>
+        <?php echo $this->BcForm->label('BannerArea.name', '表示場所') ?>
+        &nbsp;<?php echo $this->BcForm->input('BannerArea.name', array('type' => 'text', 'size' => '30')) ?>
+    </span>
+</p>
+<div class="button">
+    <?php echo $this->BcForm->submit('admin/btn_search.png', array('alt' => '検索', 'class' => 'btn'), array('div' => false, 'id' => 'BtnSearchSubmit')) ?>
+</div>
+<?php endif ?>
 <?php echo $this->BcForm->end() ?>
