@@ -1,7 +1,11 @@
-3.0.4.2
+3.0.4.3
 
 // Release Notes
 CHG: 変更内容 / BUG: バグフィックス / NEW: 機能追加
+
+[2023-04-27] banner-3.0.4.3
+BUG: admin-second用ファイルの適用間違い。
+BUG: 新規作成ボタン用関数のパラメータの修正。 
 
 [2023-04-06] banner-3.0.4.2
 CHG: 条件分岐を追加して、admin-second/admin-third管理テーマいずれにも対応。
