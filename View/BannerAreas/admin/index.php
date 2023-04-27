@@ -13,7 +13,7 @@ $this->BcBaser->js(array(
 	'admin/libs/baser_ajax_data_list_config'
 ));
 $this->BcAdmin->addAdminMainBodyHeaderLinks([
-    'url' => ['action' => 'add', $bannerArea['BannerArea']['id']],
+    'url' => ['action' => 'add'],
     'title' => __d('baser', 'バナーエリア新規追加'),
 ]);
 ?>
