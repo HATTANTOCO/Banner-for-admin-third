@@ -50,10 +50,10 @@ ___
 
 admin-third対応化に伴い、バージョン表記を仮に3.0.4.1としました。（本来のプロダクトのリビジョンに混乱をきたさないようにするため）
 
-3.0.4.1に関する改修は、[GUSSAN-BEEDAN](https://github.com/GUSSAN-BEEDAN) によるものです。
+3.0.4.1に関する改修は、[GUSSAN-BEEDAN](https://github.com/HATTANTOCO) によるものです。
 
 ## 「admin-third対応化」の内容
-詳細は、[baserCMSの「Banner（バナー管理）」プラグインのUIをadmin-third に対応化する](https://gussan-beedan.work/basercms-banner-plugin)を参照してください。
+詳細は、[baserCMSの「Banner（バナー管理）」プラグインのUIをadmin-third に対応化する](https://hattantoco.com/basercms-banner-plugin)を参照してください。
 
 主な要点:
 - admin-third対応化に伴い、admin-secondでは、利用できません。
@@ -72,7 +72,7 @@ admin-third対応化に伴い、バージョン表記を仮に3.0.4.1としま�
 ___
 以下、3.0.4.2について特記。
 
-3.0.4.2に関する改修は、[GUSSAN-BEEDAN](https://github.com/GUSSAN-BEEDAN) によるものです。
+3.0.4.2に関する改修は、[GUSSAN-BEEDAN](https://github.com/HATTANTOCO) によるものです。
 
 - 条件分岐を追加して、admin-second/admin-third管理テーマいずれにも対応しました。
 - admin-secondのバナーエリア一覧およびバナー一覧のタイトル部分、「新規追加」「並び替え」アイコン表示などがおかしい部分を修正しました。
