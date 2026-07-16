@@ -72,7 +72,7 @@ admin-third対応化に伴い、バージョン表記を仮に3.0.4.1としま�
 ___
 以下、3.0.4.2について特記。
 
-3.0.4.2に関する改修は、[HATTANTOCO](https://github.com/HATTANTOCO) によるものです。
-
 - 条件分岐を追加して、admin-second/admin-third管理テーマいずれにも対応しました。
 - admin-secondのバナーエリア一覧およびバナー一覧のタイトル部分、「新規追加」「並び替え」アイコン表示などがおかしい部分を修正しました。
+
+以降、3.0.4.xに関する改修は、[HATTANTOCO](https://github.com/HATTANTOCO) によるものです。
